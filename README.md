@@ -13,6 +13,40 @@ O 2º semestre do curso Técnico em Desenvolvimento de Sistemas do SENAI-SP é f
 - Planejar e executar projetos de software
 - Utilizar linguagens de marcação para estruturar e estilizar conteúdos
 
+### 🔗 Links Rápidos
+
+- [📊 **Banco de Dados** (BCD)](./Banco_de_Dados/README.md)
+- [🚀 **Programação Web BackEnd** (PWBE)](./Programacao_Web_BackEnd/README.md)
+- [📋 **Projeto de Software** (PS)](./Projeto_de_Software/README.md)
+- [🎨 **Linguagem de Marcação** (LIMA)](./Linguagem_de_Marcacao/README.md)
+
+### 📁 Estrutura do Repositório
+
+```
+I2DS-2025/
+├── README.md                               # Este arquivo
+├── Banco_de_Dados/                        # Banco de Dados (BCD)
+│   ├── README.md                          # Guia completo da unidade
+│   ├── exercicios/                        # Exercícios e laboratórios
+│   ├── projetos/                          # Projetos principais
+│   └── materiais/                         # Materiais de apoio
+├── Programacao_Web_BackEnd/               # Programação Web BackEnd (PWBE)
+│   ├── README.md                          # Guia completo da unidade
+│   ├── labs/                              # Laboratórios práticos
+│   ├── api-ecommerce/                     # Projeto principal
+│   └── materiais/                         # Tutoriais e exemplos
+├── Projeto_de_Software/                   # Projeto de Software (PS)
+│   ├── README.md                          # Guia completo da unidade
+│   ├── documentacao/                      # Documentos do projeto
+│   ├── projeto-integrador/                # Sistema acadêmico completo
+│   └── materiais/                         # Modelos e templates
+└── Linguagem_de_Marcacao/                # Linguagem de Marcação (LIMA)
+    ├── README.md                          # Guia completo da unidade
+    ├── exercicios/                        # Exercícios e laboratórios
+    ├── frontend-sistema/                  # Interface do sistema acadêmico
+    └── materiais/                         # Recursos adicionais
+```
+
 ### 📖 Unidades Curriculares
 
 #### 1. Banco de Dados (BCD)
@@ -134,6 +168,22 @@ O 2º semestre do curso Técnico em Desenvolvimento de Sistemas do SENAI-SP é f
 | **Outubro**  | Desenvolvimento do projeto integrador, sprint reviews       |
 | **Novembro** | Finalização dos projetos, testes e deploy                   |
 | **Dezembro** | Apresentações finais, avaliações e certificação             |
+
+### 🏆 Projeto Integrador
+
+O projeto integrador conecta todas as unidades curriculares em um sistema acadêmico completo:
+
+- **Banco de Dados (BCD):** Modelagem e gerenciamento do banco de dados.
+- **Programação Web BackEnd (PWBE):** Desenvolvimento de APIs REST e integração com o banco de dados.
+- **Projeto de Software (PS):** Planejamento, documentação e gestão do projeto.
+- **Linguagem de Marcação (LIMA):** Criação de interfaces web responsivas e acessíveis.
+
+**Funcionalidades Principais:**
+
+- Cadastro de alunos e professores.
+- Gestão de cursos e disciplinas.
+- Sistema de notas e frequência.
+- Relatórios gerenciais e dashboard analítico.
 
 ---
 
