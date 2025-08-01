@@ -85,5 +85,14 @@ internal class Program
         Console.WriteLine($"Nascimento: {aluno3.Nascimento:dd/MM/yyyy}");
         Console.WriteLine($"Email: {aluno3.Email}");
 
+        Console.WriteLine("\n----------------------------------------------");
+
+        var produto1 = new Produto
+        {
+            Codigo = 1,
+            Nome = "Caneta",
+            Preco = 2.20,
+            Estoque = 2
+        };
     }
 }
