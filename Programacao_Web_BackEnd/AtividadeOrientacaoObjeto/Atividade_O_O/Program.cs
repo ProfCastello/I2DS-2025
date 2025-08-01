@@ -91,8 +91,89 @@ internal class Program
         {
             Codigo = 1,
             Nome = "Caneta",
-            Preco = 2.20,
+            Preco = 2.20m,
             Estoque = 2
         };
+
+        var produto2 = new Produto
+        {
+            Codigo = 2,
+            Nome = "Papel",
+            Preco = 10.50m,
+            Estoque = 9
+        };
+
+        var produto3 = new Produto
+        {
+            Codigo = 3,
+            Nome = "Tesoura",
+            Preco = 9.99m,
+            Estoque = 7
+        };
+
+
+        Console.WriteLine($"\nCodigo: {produto1.Codigo}");
+        Console.WriteLine($"Nome: {produto1.Nome}");
+        Console.WriteLine($"Preço: {produto1.Preco}");
+        Console.WriteLine($"Estoque: {produto1.Estoque}");
+        Console.WriteLine($"Total em estoque: R${produto1.ValorEstoque():0.00}");
+
+        Console.WriteLine($"\nCodigo: {produto2.Codigo}");
+        Console.WriteLine($"Nome: {produto2.Nome}");
+        Console.WriteLine($"Preço: {produto2.Preco}");
+        Console.WriteLine($"Estoque: {produto2.Estoque}");
+        Console.WriteLine($"Total em estoque: R${produto2.ValorEstoque():0.00}");
+
+        Console.WriteLine($"\nCodigo: {produto3.Codigo}");
+        Console.WriteLine($"Nome: {produto3.Nome}");
+        Console.WriteLine($"Preço: {produto3.Preco}");
+        Console.WriteLine($"Estoque: {produto3.Estoque}");
+        Console.WriteLine($"Total em estoque: R${produto3.ValorEstoque():0.00}");
+
+        Console.WriteLine("\n----------------------------------------------");
+
+
+        var carro1 = new Carro
+        {
+            Marca = "Fiat",
+            Modelo = "Toro",
+            Velocidade = 00
+        };
+
+        Console.WriteLine($"\nMarca: {carro1.Marca}");
+        Console.WriteLine($"Modelo: {carro1.Modelo}");
+        Console.WriteLine($"Velocidade: {carro1.Velocidade}");
+        Console.WriteLine($"Velocidade atual: {carro1.Acelerar(10)}Km/h");
+        Console.WriteLine($"Velocidade atual: {carro1.Acelerar(20)}Km/h");
+        Console.WriteLine($"Velocidade atual: {carro1.Desacelerar(15)}Km/h");
+        Console.WriteLine("\n----------------------------------------------");
+
+        var f1 = new Funcionario("Ana", 25, "Analista");
+        var f2 = new Funcionario("Bruno", 30, "Desenvolvedor");
+        var f3 = new Funcionario("Carla", 40, "Gerente");
+
+        f1.Exibir();
+        f2.Exibir();
+        f3.Exibir();
+
+        // Envelhecendo cada um
+        f1.Envelhecer(2);
+        f2.Envelhecer(5);
+        f3.Envelhecer(1);
+
+        Console.WriteLine("\n----------------------------------------------");
+
+        var gato = new Gato();
+        var porco = new Porco();
+        var capivara = new Capivara();
+
+        gato.Exibir();
+        gato.EmitirSom();
+
+        porco.Exibir();
+        porco.EmitirSom();
+
+        capivara.Exibir();
+        capivara.EmitirSom();
     }
 }

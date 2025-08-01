@@ -13,6 +13,9 @@ namespace Atividade_O_O
         public decimal Preco { get; set; }
         public int Estoque { get; set; }
 
-
+        public decimal ValorEstoque()
+        {
+            return Preco * Estoque;
+        }
     }
 }
